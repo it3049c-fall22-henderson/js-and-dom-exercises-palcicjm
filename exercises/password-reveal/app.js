@@ -12,4 +12,11 @@ form.addEventListener('submit',function(e){
 	e.preventDefault();
 });
 
-passInput.addEventListener
+button.onclick = function() {
+	if(passInput.type = "password") {
+		passInput.type = "text";
+	}
+	else {
+		passInput.type = "password";
+	}
+}
